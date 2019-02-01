@@ -125,7 +125,7 @@ while running:
     bird.update()
 
     #colision
-
+    print("wassgud")
 
     #screen
     sys.display.flip()

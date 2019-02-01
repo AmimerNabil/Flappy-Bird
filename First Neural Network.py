@@ -125,17 +125,7 @@ while running:
     bird.update()
 
     #colision
-    if bird.getPosX() == pipe2.getX() and bird.getPosY() == pipe2.getbotY():
-        running = False
 
-    if bird.getPosX() == pipe2.getX() and bird.getPosY() == pipe2.getUpY():
-        running = False
-
-    if bird.getPosX() == pipe3.getX() and bird.getPosY() == pipe3.getbotY():
-        running = False
-
-    if bird.getPosX() == pipe3.getX() and bird.getPosY() == pipe3.getUpY():
-        running = False
 
     #screen
     sys.display.flip()

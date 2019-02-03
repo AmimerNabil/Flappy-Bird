@@ -119,14 +119,14 @@ while running:
     pipe2.update()
     pipe3.draw()
     pipe3.update()
-    print("the number 52")
 
     #bird
     bird.draw()
     bird.update()
 
     #colision
-    print("alright so this is a test okay")
+
+
     #screen
     sys.display.flip()
 
